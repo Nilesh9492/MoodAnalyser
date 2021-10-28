@@ -1,0 +1,14 @@
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.exe
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.deps.json
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.json
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.dev.json
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.dll
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.pdb
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csproj.AssemblyReference.cache
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.GeneratedMSBuildEditorConfig.editorconfig
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfoInputs.cache
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfo.cs
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csproj.CoreCompileInputs.cache
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.dll
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.pdb
+E:\NILESH\C#\MoodAnalyser\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.genruntimeconfig.cache
