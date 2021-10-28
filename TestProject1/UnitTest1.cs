@@ -37,5 +37,36 @@ namespace TestProject1
             string actual = moodAnalyser.Mood();
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void TestMethodCustomNullException()
+        {
+            string expected = "Mood should not be null";
+            try
+            {
+
+                MoodAnalyse moodAnalyser = new MoodAnalyse(null);
+                moodAnalyser.Mood();
+            }
+            catch (CustomException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+        }
+        [TestMethod]
+        public void TestMethodForCustomizedEmptyException()
+
+        {
+            string expected = "Mood should not be empty";
+            try
+            {
+
+                MoodAnalyse moodAnalyser = new MoodAnalyse(string.Empty);
+                moodAnalyser.Mood();
+            }
+            catch (CustomException ex)
+            {
+                Assert.AreEqual(expected, ex.Message);
+            }
+        }
     }
 }
