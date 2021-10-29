@@ -68,5 +68,54 @@ namespace TestProject1
                 Assert.AreEqual(expected, ex.Message);
             }
         }
+        [TestMethod]
+        public void Reflection()
+        {
+            
+            object obj = null;
+            try
+            {
+                MoodFactory factory = new MoodFactory();
+                obj = factory.CreateMoodAnalyser("MoodAnalyser.MoodAnalyse", "MoodAnalyser");
+
+            }
+            catch (CustomException ex)
+            {
+                throw new System.Exception(ex.Message);
+            }
+        }
+        [TestMethod]
+        public void ReflectionNoClass()
+        {
+            string expected = "Class not found";
+            object obj = null;
+            try
+            {
+                MoodFactory factory = new MoodFactory();
+                obj = factory.CreateMoodAnalyser("MoodAnalyser.MoodAnaly", "MoodAnaly");
+
+            }
+            catch (CustomException actual)
+            {
+                Assert.AreEqual(expected, actual.Message);
+            }
+        }
+
+        [TestMethod]
+        public void ReflectionNoConstructor()
+        {
+            string expected = "Constructor not found";
+            object obj = null;
+            try
+            {
+                MoodFactory factory = new MoodFactory();
+                obj = factory.CreateMoodAnalyser("MoodAnalyserProblem2.MoodAnalyser", "MoodAnaly");
+
+            }
+            catch (CustomException actual)
+            {
+                Assert.AreEqual(expected, actual.Message);
+            }
+        }
     }
 }
